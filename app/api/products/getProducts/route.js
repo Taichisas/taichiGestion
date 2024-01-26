@@ -3,7 +3,7 @@ import connectDB from '../../../../utils/db';
 import Product from '../../../../models/Product';
 import { NextResponse } from 'next/server';
 
-export  const GET = async (request) =>{
+export  const GET = async () =>{
     let client;
 
     try {

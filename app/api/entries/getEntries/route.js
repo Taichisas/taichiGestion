@@ -2,7 +2,7 @@ import connectDB from '../../../../utils/db';
 import Entry from '../../../../models/Entry';
 import { NextResponse } from 'next/server';
 
-export const GET = async (request) => {
+export const GET = async () => {
     try {
         // Conecta a la base de datos
         await connectDB();
